@@ -1,0 +1,52 @@
+Lang
+--Python
+--Clojure
+--Java
+
+CS utils
+--Homebrew
+--Git
+--MAMP
+--tcpdump
+--lsof
+--grep
+
+
+Useful APIs
+--graphite
+--onyx
+--clj-sockets
+--cheshire-json
+--aerospike/redis clients
+--core.async
+--compojure/ring/httpkit
+
+Dev Utils
+--IntelliJ -> keygen
+--Emacs
+  =>init.el
+  =>ciderRepl
+--AwesomeWM
+
+
+
+General utils
+--ShiftIt
+--Dropbox
+
+
+
+
+
+
+
+
+
+
+
+
+Meaningful Professional Contacts
+--Ken Balick
+--Daniel Lee
+--Joseph Lim
+--Joshua Goldberg
