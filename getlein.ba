@@ -1,0 +1,11 @@
+#!/bin/bash
+# Script to install lein
+
+sudo apt-get update
+sudo apt-get install wget
+sudo CLUPATH=$(echo $PATH | grep -o [a-zA-Z/]*/bin[a-zA-Z/]* | head -n 1)
+sudo wget -O lein https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
+sudo chmod a+x lein
+CLUPATH+="/lein"
+sudo mv lein $CLUPATH 
+lein
