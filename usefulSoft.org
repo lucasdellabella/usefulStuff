@@ -27,14 +27,36 @@ Dev Utils
   =>ciderRepl
 --AwesomeWM
 
+* Languages
+** Clojure
+** Java
+** Python
+** Clojurescript
 
+* APIs & Libs
+** Onyx                                                         :clojure:lib:
+** Ring                                                         :clojure:lib:
+** Compojure                                                    :clojure:lib:
+** HTTPKit                                                      :clojure:lib:
+** Aerospike                                                 :database:nosql:
+** Redis                                                     :database:nosql:
+** Postgres                                                    :database:sql:
 
-General utils
---ShiftIt
---Dropbox
+* Utils
 
-
-
+| Languages      | Utils           | APIs/Libs        | Dev Utils | Contacts |
+|----------------+-----------------+------------------+-----------+----------|
+| Clojure        | Package Manager | cheshire-json    |           |          |
+| Java           | Git             |                  |           |          |
+|                |                 |                  |           |          |
+|                |                 |                  |           |          |
+|                |                 |                  |           |          |
+|----------------+-----------------+------------------+-----------+----------|
+|                |                 | CLJ :: Onyx      |           |          |
+| Python         | TCPdump         | CLJ :: Compojure |           |          |
+| Clojurescript? | lsof            | CLJ :: Ring      |           |          |
+|                | grep            | CLJ :: HTTPKit   |           |          |
+|                |                 |                  |           |          |
 
 
 
