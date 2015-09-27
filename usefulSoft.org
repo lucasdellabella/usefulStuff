@@ -4,9 +4,8 @@ Lang
 --Java
 
 CS utils
---Homebrew
+--Package Manager
 --Git
---MAMP
 --tcpdump
 --lsof
 --grep
