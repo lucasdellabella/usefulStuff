@@ -10,18 +10,18 @@
 (global-linum-mode)
 (column-number-mode t)
 (delete-selection-mode 1)
-(package-refresh-contents)
 
 (server-start)
 
-;; UNCOMMENT ON FIRST RUN
-;; (setq package-archives
-;;    '(("gnu" . "http://elpa.gnu.org/packages/")
-;; 	("marmalade" . "https://marmalade-repo.org/packages/")
-;; 	("melpa" . "http://melpa.org/packages/")))
-
 (require 'package)
 (package-initialize)
+
+;;COMMENT OUT AFTER FIRST RUN for faster emacs init
+;;select all, then use M-x uncomment-region
+(setq package-archives
+      '(("gnu" . "http://elpa.gnu.org/packages/")
+	("marmalade" . "https://marmalade-repo.org/packages/")
+	("melpa" . "http://melpa.org/packages/")))
 (package-refresh-contents)
 
 (defvar my-packages '(paredit
@@ -42,24 +42,16 @@
 (require 'lua-mode)
 
 (setq org-todo-keywords
-  '((sequence "TODO" "IN-PROGRESS" "WAITING" "DONE")))
+      '((sequence "TODO" "IN-PROGRESS" "WAITING" "DONE")))
 
-;---sml MODE LINE-----
+;;sml MODE LINE
+;;Do Not Touch
 (custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
     ("26614652a4b3515b4bbbb9828d71e206cc249b67c9142c06239ed3418eff95e2" default)))
  '(org-agenda-files (quote ("~/emacscommands.org"))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+(custom-set-faces)
 
 (setq sml/theme 'powerline)
 (sml/setup)
