@@ -1,0 +1,22 @@
+* Schedule
+
+| Class   | todo  | Assignment  | Date             |
+|---------+-------+-------------+------------------|
+| Chinese | ye?   | Retake Exam | <2015-09-28 Mon> |
+| Chinese | X     | Workbook 18 | <2015-09-30 Wed> |
+| CS2110  | X     | HW 06       | <2015-10-01 Thu> |
+| CS2050  | X     | Exam 2      | <2015-10-02 Fri> |
+
+| Topic    | Task                               | Date                      |
+|----------+------------------------------------+---------------------------|
+| Personal | Retrieve monitor from post office  | <2015-09-28 Mon>          |
+| Personal | Groceries                          | <2015-09-28 Mon>          |
+| Personal | Retrieve cup + charger from lekha  | <2015-09-28 Mon>          |
+|----------+------------------------------------+---------------------------|
+| Amiluck  | Organize time with Taeyup          | <2015-09-25 Fri 15:00>    |
+| Amiluck  | Meeting with everyone              | <2015-09-28 Mon 20:30>    |
+| Amiluck  | Finish setting up sshd with Taeyup | <2015-09-28 Mon 21:00>    |
+|----------+------------------------------------+---------------------------|
+| Lenovo   | Call for laptop support            | ~Sooner rather than Later |
+|----------+------------------------------------+---------------------------|
+| English  | Get next book                      | <2015-09-27 Sun>          |
