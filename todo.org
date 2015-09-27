@@ -1,11 +1,13 @@
 * Schedule
 
-| Class   | todo  | Assignment  | Date             |
-|---------+-------+-------------+------------------|
-| Chinese | ye?   | Retake Exam | <2015-09-28 Mon> |
-| Chinese | X     | Workbook 18 | <2015-09-30 Wed> |
-| CS2110  | X     | HW 06       | <2015-10-01 Thu> |
-| CS2050  | X     | Exam 2      | <2015-10-02 Fri> |
+| Class   | todo | Assignment     | Date             |
+|---------+------+----------------+------------------|
+| Chinese | ye?  | Retake Exam    | <2015-09-28 Mon> |
+| English | X    | Read           | <2015-09-28 Mon> |
+| Chinese | X    | Workbook 18    | <2015-09-30 Wed> |
+| CS2110  | X    | HW 06          | <2015-10-01 Thu> |
+| CS2050  | X    | Do odd HW05 qs | <2015-10-02 Fri> |
+| CS2050  | X    | Exam 2         | <2015-10-02 Fri> |
 
 | Topic    | Task                               | Date                      |
 |----------+------------------------------------+---------------------------|
