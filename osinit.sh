@@ -6,10 +6,15 @@ echo "This script installs:"
 echo "--git"
 echo "--emacs"
 echo "--leiningen"
+echo "--awesome window manager"
+
+sudo mkdir $HOME/dev
+cd   $HOME/dev
 
 echo "install timeout"
 sudo apt-get install timeout
 
+# git is probably already installed
 echo "install git"
 sudo apt-get install git
 git clone https://github.com/xregnarpurex/usefulStuff.git '~/dev/usefulStuff'
@@ -22,3 +27,7 @@ timeout 60 emacs & nohup >> /dev/null
 
 echo "install leiningen"
 $HOME/dev/usefulStuff/getlein.ba
+
+echo "install awesome"
+sudo apt-get install awesome
+cp $HOME/dev/usefulStuff/rcgeneric.lua /etc/xdg/awesome/rc.lua
