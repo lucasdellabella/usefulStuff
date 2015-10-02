@@ -34,8 +34,13 @@ sudo apt-get install awesome
 cp $HOME/dev/usefulStuff/rcgeneric.lua /etc/xdg/awesome/rc.lua
 
 #should def a var
-sudo unzip -d$HOME/.config/awesome $HOME/dev/usefulStuff/awesome-copycats-master.zip
-sudo unzip -d$HOME/.config/awesome/awesome-copycats-master.zip $HOME/dev/usefulStuff/lain-master.zip
+AWESOMECONF="$HOME/.config/awesome"
+USEFULSTUFF="$HOME/dev/usefulStuff"
+sudo unzip -d$AWESOMECONF $USEFULSTUFF/awesome-copycats-master.zip
+sudo cp -r $AWESOMECONF/awesome-copycats-master/*
+rm -rf $AWESOMECONF/awesome-copycats-master
+# should contents of lain-master folder really be the contents of lain folder?
+sudo unzip -d$AWESOMECONF $USEFULSTUFF/lain-master.zip
 
 # Enable bitmapped fonts?
 ## cd /etc/fonts/conf.d/

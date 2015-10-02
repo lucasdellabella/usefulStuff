@@ -9,6 +9,7 @@
 | Topic    | Task                              | Date                      |
 |----------+-----------------------------------+---------------------------|
 | Personal | Check stucen lost and found       | <2015-10-02 Fri>          |
+| Personal | Pick up mDP cable from stucen     | <2015-10-02 Fri>          |
 |----------+-----------------------------------+---------------------------|
 | Amiluck  | Organize meeting time with Taeyup | <2015-09-25 Fri 15:00>    |
 | Amiluck  | Plan meeting agenda               | <2015-09-25 Fri 15:00>    |
@@ -17,6 +18,4 @@
 |----------+-----------------------------------+---------------------------|
 | Lenovo   | Call for laptop support           | ~Sooner rather than Later |
 |----------+-----------------------------------+---------------------------|
-| Family   | Call parents                      | <2015-10-01 Thu>          |
 | Family   | Check in with Rachel              | <2015-10-03 Sat>          |
-|          |                                   |                           |
