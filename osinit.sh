@@ -3,45 +3,47 @@
 #  any distro with apt-get
 
 echo "This script installs:"
-echo "--git"
 echo "--emacs"
 echo "--leiningen"
 echo "--awesome window manager"
-echo "--timeout, unzip utils"
-
-NOOUT="&"
+echo "--unzip"
 
 echo "moving this folder to $HOME/dev/usefulStuff"
 sudo mkdir $HOME/dev
 sudo cp -r . $HOME/dev/usefulStuff
 
-echo "Install utilities"
-sudo apt-get -y install timeout $NOOUT
-sudo apt-get -y install unzip $NOOUT
+echo "Installing utilities..."
+sudo apt-get -yqq install unzip
 
-echo "Install emacs"
-echo "NOTE: emacs will close on its own!"
-sudo apt-get -y install emacs24 $NOOUT
+echo "Installing emacs..."
+sudo apt-get -yqq install emacs24 &> /dev/null
 mkdir ~/.emacs.d
 cp ~/dev/usefulStuff/init.el ~/.emacs.d/init.el
-timeout 60 emacs &>nohup /dev/null
+echo "NOTE: Follow the instructions and quit emacs"
+# use a 60 second timeout
+# timeout 60 
+emacs &>nohup ~/.emacs.d/init.el
 
-echo "Install leiningen"
-$HOME/dev/usefulStuff/getlein.ba $NOOUT
+echo "Installing leiningen..."
+$HOME/dev/usefulStuff/getlein.ba &> /dev/null
 
-echo "Install awesome"
-sudo apt-get -y install awesome $NOOUT
-cp $HOME/dev/usefulStuff/rcgeneric.lua /etc/xdg/awesome/rc.lua
+echo "Installing awesome..."
+sudo apt-get -yqq install awesome &> /dev/null
+sudo cp $HOME/dev/usefulStuff/rcgeneric.lua /etc/xdg/awesome/rc.lua
 
 #should def a var
 AWESOMECONF="$HOME/.config/awesome"
 USEFULSTUFF="$HOME/dev/usefulStuff"
 # Unzip awesome themes
-sudo unzip -d$HOME/.config $USEFULSTUFF/awesome-copycats-master.zip  $NOOUT
-mv $HOME/.config/awesome-copycats-master $AWESOMECONF
+sudo unzip -d$HOME/.config $USEFULSTUFF/awesome-copycats-master.zip > /dev/null
+sudo mv $HOME/.config/awesome-copycats-master $AWESOMECONF
 # Unzip awesome widgets plugin
-sudo unzip -d$AWESOMECONF $USEFULSTUFF/lain-master.zip $NOOUT
-mv $AWESOMECONF/lain-master $AWESOMECONF/lain
+sudo unzip -d$AWESOMECONF $USEFULSTUFF/lain-master.zip > /dev/null
+sudo mv $AWESOMECONF/lain-master $AWESOMECONF/lain
+
+# Set git attr
+git config --global user.email "dellabella.lucas@gmail.com"
+git config --global user.email "Lucas Della Bella"
 
 # Enable bitmapped fonts?
 ## cd /etc/fonts/conf.d/
