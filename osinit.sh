@@ -1,6 +1,6 @@
 #!/bin/bash
-# Run this after installing
-#    any distro with apt-get
+#  Run this after installing
+#  any distro with apt-get
 
 echo "This script installs:"
 echo "--git"
@@ -9,38 +9,39 @@ echo "--leiningen"
 echo "--awesome window manager"
 echo "--timeout, unzip utils"
 
+NOOUT="&"
+
+echo "moving this folder to $HOME/dev/usefulStuff"
 sudo mkdir $HOME/dev
+sudo cp -r . $HOME/dev/usefulStuff
 
-echo "install utilities"
-sudo apt-get install timeout
-sudo apt-get install unzip
+echo "Install utilities"
+sudo apt-get -y install timeout $NOOUT
+sudo apt-get -y install unzip $NOOUT
 
-# git is probably already installed
-echo "install git"
-sudo apt-get install git
-git clone https://github.com/xregnarpurex/usefulStuff.git '~/dev/usefulStuff'
-
-echo "install emacs"
+echo "Install emacs"
 echo "NOTE: emacs will close on its own!"
-sudo apt-get install emacs24
-cp '~/dev/usefulStuff/init.el' '~/.emacs.d/init.el'
-timeout 60 emacs & nohup >> /dev/null
+sudo apt-get -y install emacs24 $NOOUT
+mkdir ~/.emacs.d
+cp ~/dev/usefulStuff/init.el ~/.emacs.d/init.el
+timeout 60 emacs &>nohup /dev/null
 
-echo "install leiningen"
-$HOME/dev/usefulStuff/getlein.ba
+echo "Install leiningen"
+$HOME/dev/usefulStuff/getlein.ba $NOOUT
 
-echo "install awesome"
-sudo apt-get install awesome
+echo "Install awesome"
+sudo apt-get -y install awesome $NOOUT
 cp $HOME/dev/usefulStuff/rcgeneric.lua /etc/xdg/awesome/rc.lua
 
 #should def a var
 AWESOMECONF="$HOME/.config/awesome"
 USEFULSTUFF="$HOME/dev/usefulStuff"
-sudo unzip -d$AWESOMECONF $USEFULSTUFF/awesome-copycats-master.zip
-sudo cp -r $AWESOMECONF/awesome-copycats-master/*
-rm -rf $AWESOMECONF/awesome-copycats-master
-# should contents of lain-master folder really be the contents of lain folder?
-sudo unzip -d$AWESOMECONF $USEFULSTUFF/lain-master.zip
+# Unzip awesome themes
+sudo unzip -d$HOME/.config $USEFULSTUFF/awesome-copycats-master.zip  $NOOUT
+mv $HOME/.config/awesome-copycats-master $AWESOMECONF
+# Unzip awesome widgets plugin
+sudo unzip -d$AWESOMECONF $USEFULSTUFF/lain-master.zip $NOOUT
+mv $AWESOMECONF/lain-master $AWESOMECONF/lain
 
 # Enable bitmapped fonts?
 ## cd /etc/fonts/conf.d/
