@@ -1,46 +1,49 @@
 #!/bin/bash
-# Run this after installing
-#    any distro with apt-get
+#  Run this after installing
+#  any distro with apt-get
 
 echo "This script installs:"
-echo "--git"
 echo "--emacs"
 echo "--leiningen"
 echo "--awesome window manager"
-echo "--timeout, unzip utils"
+echo "--unzip"
 
+echo "moving this folder to $HOME/dev/usefulStuff"
 sudo mkdir $HOME/dev
+sudo cp -r . $HOME/dev/usefulStuff
 
-echo "install utilities"
-sudo apt-get install timeout
-sudo apt-get install unzip
+echo "Installing utilities..."
+sudo apt-get -yqq install unzip
 
-# git is probably already installed
-echo "install git"
-sudo apt-get install git
-git clone https://github.com/xregnarpurex/usefulStuff.git '~/dev/usefulStuff'
+echo "Installing emacs..."
+sudo apt-get -yqq install emacs24 &> /dev/null
+mkdir ~/.emacs.d
+cp ~/dev/usefulStuff/init.el ~/.emacs.d/init.el
+echo "NOTE: Follow the instructions and quit emacs"
+# use a 60 second timeout
+# timeout 60 
+emacs &>nohup ~/.emacs.d/init.el
 
-echo "install emacs"
-echo "NOTE: emacs will close on its own!"
-sudo apt-get install emacs24
-cp '~/dev/usefulStuff/init.el' '~/.emacs.d/init.el'
-timeout 60 emacs & nohup >> /dev/null
+echo "Installing leiningen..."
+$HOME/dev/usefulStuff/getlein.ba &> /dev/null
 
-echo "install leiningen"
-$HOME/dev/usefulStuff/getlein.ba
-
-echo "install awesome"
-sudo apt-get install awesome
-cp $HOME/dev/usefulStuff/rcgeneric.lua /etc/xdg/awesome/rc.lua
+echo "Installing awesome..."
+sudo apt-get -yqq install awesome &> /dev/null
+sudo cp $HOME/dev/usefulStuff/rcgeneric.lua /etc/xdg/awesome/rc.lua
 
 #should def a var
 AWESOMECONF="$HOME/.config/awesome"
 USEFULSTUFF="$HOME/dev/usefulStuff"
-sudo unzip -d$AWESOMECONF $USEFULSTUFF/awesome-copycats-master.zip
-sudo cp -r $AWESOMECONF/awesome-copycats-master/*
-rm -rf $AWESOMECONF/awesome-copycats-master
-# should contents of lain-master folder really be the contents of lain folder?
-sudo unzip -d$AWESOMECONF $USEFULSTUFF/lain-master.zip
+# Unzip awesome themes
+sudo unzip -d$HOME/.config $USEFULSTUFF/awesome-copycats-master.zip > /dev/null
+sudo mv $HOME/.config/awesome-copycats-master $AWESOMECONF
+# Unzip awesome widgets plugin
+sudo unzip -d$AWESOMECONF $USEFULSTUFF/lain-master.zip > /dev/null
+sudo mv $AWESOMECONF/lain-master $AWESOMECONF/lain
+
+# Set git attr
+git config --global user.email "dellabella.lucas@gmail.com"
+git config --global user.email "Lucas Della Bella"
 
 # Enable bitmapped fonts?
 ## cd /etc/fonts/conf.d/

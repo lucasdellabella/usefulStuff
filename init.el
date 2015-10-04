@@ -1,3 +1,6 @@
+;; Comment out the setq package-archives block,
+;; save, then quit  (C-x C-s, C-x C-c)
+
 (setq inhibit-startup-message t)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
@@ -23,6 +26,7 @@
 	("marmalade" . "https://marmalade-repo.org/packages/")
 	("melpa" . "http://melpa.org/packages/")))
 (package-refresh-contents)
+;;
 
 (defvar my-packages '(paredit
 		      clojure-mode
