@@ -1,0 +1,25 @@
+* Table of Contents
+
+** osinit.sh
+*** Installs 
+**** awesomewm 
+**** leiningen
+**** emacs
+**** unzip
+**** TODO awesomewm copycat themes
+**** TODO redshift :: f.lux clone
+*** TODO Add functionality for different package managers
+    
+** bootup.sh
+*** Enables second monitor, slows mouse, & activates redshift
+*** TODO Detach process from terminal
+
+** getlein.ba
+*** Installs leiningen
+*** TODO Check if it install most recent version
+** switch-bg.sh
+*** TODO Restart awesome on run
+*** Account for copy-cat themes
+
+** init.el
+*** TODO Understand why the package manager is failing

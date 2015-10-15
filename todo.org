@@ -1,22 +1,24 @@
 * Schedule
 
-| Class   | Assignment           | Date                   |
-|---------+----------------------+------------------------|
-| English | New Book Reading     | <2015-10-05 Mon>       |
-| CS2110  | HW07                 | <2015-10-09 Fri 23:55> |
-| Chinese | Study ~ 1 hour / day | <2015-10-09 Fri>       |
-| CS2050  | HW06                 | <2015-10-09 Fri 14:00> |
-|---------+----------------------+------------------------|
+| Class   | Assignment  | Date                   |
+|---------+-------------+------------------------|
+| CS2110  | HW08        |                        |
+| Chinese | Workbook 19 | <2015-10-21 Wed>       |
+| CS2050  | HW07        | <2015-10-16 Fri 14:00> |
+| ENG     | Read Avis   | <2015-10-16 Fri 12:00> |
+|---------+-------------+------------------------|
 
 
 | Topic    | Task                           | Date                      |
 |----------+--------------------------------+---------------------------|
-| Personal | Check stucen lost and found    | <2015-10-02 Fri>          |
-|----------+--------------------------------+---------------------------|
-| Amiluck  | Talk with Taeyup about leaving | <2015-09-25 Fri 15:00>    |
-| Amiluck  | Plan meeting agenda            | <2015-09-25 Fri 15:00>    |
 | Amiluck  | Send free times of week.       | <2015-10-01 Thu 20:30>    |
 | Amiluck  | Understand SSHD problems       | <2015-10-04 Sun 21:00>    |
 |----------+--------------------------------+---------------------------|
 | Lenovo   | Call for laptop support        | ~Sooner rather than Later |
 |----------+--------------------------------+---------------------------|
+| Jobs     | Apply to:                      |                           |
+|          | - Apple                        |                           |
+|          | - Twitter                      |                           |
+|          | - Microsoft                    |                           |
+|          | - Goldman Sachs                |                           |
+|          | - Bridgewater                  |                           |
