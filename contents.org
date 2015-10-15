@@ -10,6 +10,7 @@
 **** TODO redshift :: f.lux clone
 *** TODO Add functionality for different package managers
     
+*** TODO Clean file paths
 ** bootup.sh
 *** Enables second monitor, slows mouse, & activates redshift
 *** TODO Detach process from terminal
