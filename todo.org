@@ -1,24 +1,51 @@
-* Schedule
+| TODOs                            |
+|----------------------------------|
+| Study chinese                    |
+| Finish 1 week of ML              |
+|                                  |
+| Gym::  Weds + Fri                |
+| Get Database + listeners set up? |
 
-| Class   | Assignment  | Date                   |
-|---------+-------------+------------------------|
-| CS2110  | HW08        |                        |
-| Chinese | Workbook 19 | <2015-10-21 Wed>       |
-| CS2050  | HW07        | <2015-10-16 Fri 14:00> |
-| ENG     | Read Avis   | <2015-10-16 Fri 12:00> |
-|---------+-------------+------------------------|
+*** Scientific Evidence shows that multitasking is not a thing
+    Thus, do not attempt to multitask
+*** The 'growth mindset'
+    Worry more about tackling the challenge and learning. Worry less about the result.
 
+8 Goals 
+| Long Term | Bunny Hop + Manual on BMX                      |
+|           | DJ at a party                                  |
+|           | Be able to improv on ukulele                   |
+|           | Be able to speak chinese                       |
+|-----------+------------------------------------------------|
+| Mid Term  | Go to LUG                                      |
+|           | Read clean code with Joe                       |
+|           | Read ProGit                                    |
+|           | Learn Haskell                                  |
+|           | Work on a project with a large team of friends |
+|           | Tutor an inner city kid                        |
+|           | Remix another track                            |
 
-| Topic    | Task                           | Date                      |
-|----------+--------------------------------+---------------------------|
-| Amiluck  | Send free times of week.       | <2015-10-01 Thu 20:30>    |
-| Amiluck  | Understand SSHD problems       | <2015-10-04 Sun 21:00>    |
-|----------+--------------------------------+---------------------------|
-| Lenovo   | Call for laptop support        | ~Sooner rather than Later |
-|----------+--------------------------------+---------------------------|
-| Jobs     | Apply to:                      |                           |
-|          | - Apple                        |                           |
-|          | - Twitter                      |                           |
-|          | - Microsoft                    |                           |
-|          | - Goldman Sachs                |                           |
-|          | - Bridgewater                  |                           |
+** 2110								   :teammate:
+    submit
+
+| Topic   | Task                    | Date                      |
+|---------+-------------------------+---------------------------|
+| Lenovo  | Call for laptop support | ~Sooner rather than Later |
+|---------+-------------------------+---------------------------|
+| APPLY   | - Twitter               |                           |
+|         | - Tumblr  (scala)       |                           |
+|         | - Bridgewater           |                           |
+|         | - Linkedin              |                           |
+|         |                         |                           |
+| APPLIED | Venmo                   |                           |
+|         | Microsoft               |                           |
+|         | Yahoo!                  |                           |
+|         | Foursquare              |                           |
+|         | Facebook                |                           |
+|         | Apple       (Not NYC)   |                           |
+|         | Goldman Sachs           |                           |
+|         | Google                  |                           |
+|         | Qualcomm                |                           |
+|         | Bloomberg 1/2           |                           |
+|         | Palantir                |                           |
+

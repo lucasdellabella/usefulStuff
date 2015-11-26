@@ -31,7 +31,7 @@ echo "Installing awesome..."
 sudo apt-get -yqq install awesome &> /dev/null
 sudo cp $HOME/dev/usefulStuff/awesome/rcgeneric.lua /etc/xdg/awesome/rc.lua
 sudo $HOME/dev/usefulStuff/bash_scripts/switch-bg.sh backgrounds/nysky1440.jpg
-
+a
 #should def a var
 AWESOMECONF="$HOME/.config/awesome"
 USEFULSTUFF="$HOME/dev/usefulStuff/awesome"
