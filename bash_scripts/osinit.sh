@@ -10,19 +10,20 @@ echo "--unzip"
 
 echo "moving this folder to $HOME/dev/usefulStuff"
 sudo mkdir $HOME/dev
-sudo cp -r . $HOME/dev/usefulStuff
+sudo mv -r ../usefulStuff $HOME/dev/usefulStuff
 
 echo "Installing utilities..."
 sudo apt-get -yqq install unzip
 
 echo "Installing emacs..."
 sudo apt-get -yqq install emacs24 &> /dev/null
-mkdir ~/.emacs.d
-cp ~/dev/usefulStuff/.emacs.d/init.el ~/.emacs.d/init.el
-echo "NOTE: Follow the instructions and quit emacs"
-# use a 60 second timeout
-# timeout 60 
-emacs &>nohup ~/.emacs.d/init.el
+# mkdir ~/.emacs.d
+# cp ~/dev/usefulStuff/.emacs.d/init.el ~/.emacs.d/init.el
+# echo "NOTE: Follow the instructions and quit emacs"
+# # use a 60 second timeout
+# # timeout 60 
+# emacs &>nohup ~/.emacs.d/init.el
+git clone --recursive http://github.com/syl20bnr/spacemacs ~/.emacs.d
 
 echo "Installing leiningen..."
 $HOME/dev/usefulStuff/bash_scripts/getlein.ba &> /dev/null
@@ -31,10 +32,11 @@ echo "Installing awesome..."
 sudo apt-get -yqq install awesome &> /dev/null
 sudo cp $HOME/dev/usefulStuff/awesome/rcgeneric.lua /etc/xdg/awesome/rc.lua
 sudo $HOME/dev/usefulStuff/bash_scripts/switch-bg.sh backgrounds/nysky1440.jpg
-a
+
 #should def a var
 AWESOMECONF="$HOME/.config/awesome"
 USEFULSTUFF="$HOME/dev/usefulStuff/awesome"
+
 # Unzip awesome themes
 sudo unzip -d$HOME/.config $USEFULSTUFF/awesome-copycats-master.zip > /dev/null
 sudo mv $HOME/.config/awesome-copycats-master $AWESOMECONF
@@ -44,7 +46,7 @@ sudo mv $AWESOMECONF/lain-master $AWESOMECONF/lain
 
 # Set git attr
 git config --global user.email "dellabella.lucas@gmail.com"
-git config --global user.email "Lucas Della Bella"
+git config --global user.name "Lucas Della Bella"
 
 # Enable bitmapped fonts?
 ## cd /etc/fonts/conf.d/
