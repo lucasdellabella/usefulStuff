@@ -7,20 +7,32 @@ echo "--emacs"
 echo "--leiningen"
 echo "--awesome window manager"
 echo "--unzip"
+echo "--xbacklight"
+echo "  and sets CapsLk to Ctrl"
+echo "---------------------------------------------------------------------"
 
-echo "moving this folder to $HOME/dev/usefulStuff"
+#should def a var
+AWESOMECONF="$HOME/.config/awesome"
+USEFULSTUFF="$HOME/dev/usefulStuff/awesome"
+
 sudo mkdir $HOME/dev
 sudo mv -r ../usefulStuff $HOME/dev/usefulStuff
+echo "Moved usefulStuff to ~/dev/usefulStuff"
+
+echo "Setting CapsLk To Control..."
+sudo cp $HOME/dev/usefulStuff/keyboard /etc/default/keyboard
+sudo dpkg-reconfigure -phigh console-setup
 
 echo "Installing utilities..."
 sudo apt-get -yqq install unzip
+sudo apt-get -yqq install xbacklight
 
 echo "Installing emacs..."
 sudo apt-get -yqq install emacs24 &> /dev/null
 # mkdir ~/.emacs.d
 # cp ~/dev/usefulStuff/.emacs.d/init.el ~/.emacs.d/init.el
 # echo "NOTE: Follow the instructions and quit emacs"
-# # use a 60 second timeout
+# use a 60 second timeout
 # # timeout 60 
 # emacs &>nohup ~/.emacs.d/init.el
 git clone --recursive http://github.com/syl20bnr/spacemacs ~/.emacs.d
@@ -31,12 +43,9 @@ $HOME/dev/usefulStuff/bash_scripts/getlein.ba &> /dev/null
 echo "Installing awesome..."
 sudo apt-get -yqq install awesome &> /dev/null
 sudo cp $HOME/dev/usefulStuff/awesome/rcgeneric.lua /etc/xdg/awesome/rc.lua
-sudo $HOME/dev/usefulStuff/bash_scripts/switch-bg.sh backgrounds/nysky1440.jpg
+sudo $HOME/dev/usefulStuff/bash_scripts/switch-bg.sh backgrounds/nysky1440.jpgq
 
-#should def a var
-AWESOMECONF="$HOME/.config/awesome"
-USEFULSTUFF="$HOME/dev/usefulStuff/awesome"
-
+### AWESOME THEMES NOT ENABLED ###
 # Unzip awesome themes
 sudo unzip -d$HOME/.config $USEFULSTUFF/awesome-copycats-master.zip > /dev/null
 sudo mv $HOME/.config/awesome-copycats-master $AWESOMECONF

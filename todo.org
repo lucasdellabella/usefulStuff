@@ -1,15 +1,23 @@
-| TODOs                            |
-|----------------------------------|
-| Study chinese                    |
-| Finish 1 week of ML              |
-|                                  |
-| Gym::  Weds + Fri                |
-| Get Database + listeners set up? |
+| TODOs                    |
+|--------------------------|
+| Study chinese            |
+| Redo 2110 Homework       |
+|                          |
+| Study 2050               |
+| Study 2110               |
+| English Project          |
+|                          |
+| Bloomberg int. Tues      |
+| Contact Venmo Kerrie     |
+|                          |
+| Switch Caps Lock -> Ctrl |
+| Switch Ctrl->Caps Lock   |
 
 *** Scientific Evidence shows that multitasking is not a thing
     Thus, do not attempt to multitask
 *** The 'growth mindset'
-    Worry more about tackling the challenge and learning. Worry less about the result.
+    Worry more about tackling the challenge and learning.
+    Worry less about the result.
 
 8 Goals 
 | Long Term | Bunny Hop + Manual on BMX                      |
@@ -17,35 +25,11 @@
 |           | Be able to improv on ukulele                   |
 |           | Be able to speak chinese                       |
 |-----------+------------------------------------------------|
-| Mid Term  | Go to LUG                                      |
-|           | Read clean code with Joe                       |
-|           | Read ProGit                                    |
-|           | Learn Haskell                                  |
+| Mid Term  | Learn Haskell                                  |
 |           | Work on a project with a large team of friends |
+|           | Read ProGit                                    |
+|           | Read clean code with Joe                       |
+|           | Go to LUG                                      |
 |           | Tutor an inner city kid                        |
 |           | Remix another track                            |
-
-** 2110								   :teammate:
-    submit
-
-| Topic   | Task                    | Date                      |
-|---------+-------------------------+---------------------------|
-| Lenovo  | Call for laptop support | ~Sooner rather than Later |
-|---------+-------------------------+---------------------------|
-| APPLY   | - Twitter               |                           |
-|         | - Tumblr  (scala)       |                           |
-|         | - Bridgewater           |                           |
-|         | - Linkedin              |                           |
-|         |                         |                           |
-| APPLIED | Venmo                   |                           |
-|         | Microsoft               |                           |
-|         | Yahoo!                  |                           |
-|         | Foursquare              |                           |
-|         | Facebook                |                           |
-|         | Apple       (Not NYC)   |                           |
-|         | Goldman Sachs           |                           |
-|         | Google                  |                           |
-|         | Qualcomm                |                           |
-|         | Bloomberg 1/2           |                           |
-|         | Palantir                |                           |
 
