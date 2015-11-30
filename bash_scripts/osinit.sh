@@ -26,6 +26,11 @@ sudo dpkg-reconfigure -phigh console-setup
 echo "Installing utilities..."
 sudo apt-get -yqq install unzip
 sudo apt-get -yqq install xbacklight
+sudo apt-get -yqq install redshift
+
+# Does this l flag work or do 
+# the . and - need to be escaped?
+sudo redshift -l33.748995:-84.387982
 
 echo "Installing emacs..."
 sudo apt-get -yqq install emacs24 &> /dev/null
