@@ -1,35 +1,115 @@
-| TODOs                    |
-|--------------------------|
-| Study chinese            |
-| Redo 2110 Homework       |
-|                          |
-| Study 2050               |
-| Study 2110               |
-| English Project          |
-|                          |
-| Bloomberg int. Tues      |
-| Contact Venmo Kerrie     |
-|                          |
-| Switch Caps Lock -> Ctrl |
-| Switch Ctrl->Caps Lock   |
+** General
+*** DO EVERY DAY
+    Learn to meditate
+     - Meditate 10 minutes in the morning
+     - Meditate 10 minutes in the night
+    Spend 3 minutes thinking / writing about everything you're grateful for.
+    Make conversation with a stranger
+    Do something for someone else
 
-*** Scientific Evidence shows that multitasking is not a thing
-    Thus, do not attempt to multitask
-*** The 'growth mindset'
-    Worry more about tackling the challenge and learning.
-    Worry less about the result.
+*** TODOs
+**** Chinese - Workbook 18
+DEADLINE: <2016-02-24 Wed>
+**** 2200 - Demo
+SCHEDULED: <2016-02-17 Wed>
+**** 2200 - Project 2
+SCHEDULED: <2016-02-24 Wed>
+**** 2340 - Exam 1
+<2016-02-22 Mon>
+**** 2340 - M5
+<2016-02-24 Wed>
+**** EnerCage
+***** EnerCage Meeting
+<2016-02-19 Fri>
+***** Understand Networking / Server code for RPi
+***** Check out OpenCV, pipe C++ data into java
+**** Haskell Group
+**** Social
+**** Professional
+***** BlueCore Phone Call
+SCHEDULED: <2016-02-16 Tue>
+***** Yahoo! Phone Call
+SCHEDULED: <2016-02-17 Wed>
+***** Send Proj Atom @ Yahoo!
+**** Development Env
+| [2016-02-28 Sun] | set up spacemacs config layers        |
+|                  | Understand org-mode better            |
+|------------------+---------------------------------------|
+| Mini-Projects    | Set up cloud-vm                       |
+|                  | --to send email + texts               |
+|                  | --to use as ssh server for todos      |
+|                  |                                       |
+|                  | UNIX: Understand Cron                 |
+|                  | UNIX: Understand piping / redirection |
+|                  | Stockfighter.io                       |
+**** Stuff for break
+<2016-03-19 Sat>
+***** Hackathon
+Sat night? + sun?
+****** Day @ Park
+****** Picnic
+****** 'Grill Off'
+****** Frisbee
+***** Movie(s?) Day
+**** Fun!
+***** Cybersecurity & Startups
+<2016-03-17 Thu>
 
-8 Goals 
+*** Goals
+8 Goals
+|           | Be able to speak chinese                       |
 | Long Term | Bunny Hop + Manual on BMX                      |
 |           | DJ at a party                                  |
 |           | Be able to improv on ukulele                   |
-|           | Be able to speak chinese                       |
 |-----------+------------------------------------------------|
-| Mid Term  | Learn Haskell                                  |
-|           | Work on a project with a large team of friends |
-|           | Read ProGit                                    |
+| Mid Term  |                                                |
 |           | Read clean code with Joe                       |
+|-----------+------------------------------------------------|
+|           | Work on a project with a large team of friends |
 |           | Go to LUG                                      |
+|           | Read ProGit                                    |
 |           | Tutor an inner city kid                        |
 |           | Remix another track                            |
 
+*** Random Thoughts
+**** Scientific Evidence shows that multitasking is not a thing
+Thus, do not attempt to multitask
+**** The 'growth mindset'
+Worry more about tackling the challenge and learning.
+Worry less about the result.
+
+**** "because vegetarianism is sexy" -jayanth devanthan
+**** "Comfort zones are for losers"
+
+** Step 1
+*** Speak to Exchange advisor about Fall @ GE3-UM-SJTU program
+**** Physics I
+**** Physics II same time?
+**** Chinese X?
+**** Global Perspective??
+
+*** Coursera SVM
+*** Read some of chapter 4
+
+** Hack-er Ideas
+*** Always on mic that keeps track of a todo list using your conversations throughout the day
+*** Bluetooth / WiFi connected Hololens 'ball'
+*** Use bird migratory data and weather data to see how weather, and maybe climate change have been affecting migratory patterns
+
+** Lessons:
+*** test modularly
+*** Always use a git repo
+add all:
+  You can also type git add -A . where the dot stands for the current directory, so everything in and beneath it is added. The -A ensures even file deletions are included.
+git reset:DADDP
+  You can use git reset <filename> to remove a file or files from the staging area.
+
+* Make FB event for spring break
+* 2200 Project
+** Figure out what goes in buffers
+
+* Important Distinctions
+** Todos + Calendar Items / Events are DIFFERENT
+
+* New Vim Stuff
+** :StripWhitespace

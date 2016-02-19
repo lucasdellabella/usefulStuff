@@ -1,0 +1,24 @@
+* Spacemacs Haskell
+** General Commands
+ | SPC w w | next window               |
+ | SPC w c | close window              |
+ | SPC w / | split window vertically   |
+ | SPC w - | split window horizontally |
+ |---------+---------------------------|
+ | SPC f f | find or open new file     |
+ | SPC f s | save current buffer       |
+ | SPC b b | switch buffer             |
+
+** Haskell Commands
+*** Note: you must be within a .hs file to use these cmds
+**** Repl Commands
+| SPC m s b | 	load or reload the current buffer into the REPL |
+| SPC m s c | 	clear the REPL                                  |
+| SPC m s s | 	show the REPL without switching to it           |
+| SPC m s S | 	show and switch to the REPL                     |
+
+**** Other useful commands
+| Visit https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Blang/haskell/ |
+
+** Cabal
+*** Think it's your project / dependency manager ?_?
