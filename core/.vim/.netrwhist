@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/lucasdellabella/PersonalProjects/jasonJacksonWebsite'
+let g:netrw_dirhist_2='/Users/lucasdellabella/usefulStuff/bash_scripts'
+let g:netrw_dirhist_3='/Users/lucasdellabella/langconf/demo2/imports'
+let g:netrw_dirhist_4='/Users/lucasdellabella/langconf/demo2/imports/ui'
+let g:netrw_dirhist_5='/Users/lucasdellabella/langconf/demo2/imports/ui/layouts'
+let g:netrw_dirhist_6='/Users/lucasdellabella/langconf/demo2/imports/ui'
+let g:netrw_dirhist_7='/Users/lucasdellabella/langconf/demo2/imports/ui/pages'
+let g:netrw_dirhist_8='/Users/lucasdellabella/tsinghua/CTheory'

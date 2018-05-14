@@ -1,0 +1,4 @@
+core/.vim/bundle/*
+!core/.vim/bundle/.gitkeep
+core/.vim/plugged/*
+!core/.vim/plugged/.gitkeep
